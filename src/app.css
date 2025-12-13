@@ -2,7 +2,12 @@
 
 @theme {
 	/* Colors */
-	--color-plain-green: #25E68E;
+	--color-primary-500: oklch(0.696 0.17 162.48);
+	--color-primary-600: oklch(0.596 0.145 163.225);
+	--color-primary-700: oklch(0.508 0.118 165.612);
+	--color-primary-50: oklch(0.979 0.021 166.113);
+	--color-primary-100: oklch(0.95 0.052 163.051);
+	--color-plain-green: oklch(0.696 0.17 162.48);
 	--color-plain-dark: #080a09;
 	--color-plain-dark-secondary: #131615;
 	--color-plain-gray: #f7f7f5;

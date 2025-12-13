@@ -6,19 +6,19 @@
   <div class="container-custom flex flex-col items-center text-center">
     
     <!-- Badge -->
-    <a href="#" class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-green-50 border border-green-100 text-green-600 text-xs font-medium mb-8 hover:bg-green-100 transition-colors">
-      Introducing the new Plain AI suite
+    <a href="#" class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-primary-50 border border-primary-100 text-primary-700 text-xs font-medium mb-8 hover:bg-primary-100 transition-colors">
+      Built for growing churches
       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
     </a>
 
     <!-- Headline -->
     <h1 class="text-5xl md:text-7xl font-bold tracking-tight text-gray-900 mb-6 max-w-4xl mx-auto leading-[1.1]">
-      <span class="text-plain-green">10x</span> your support <br class="hidden md:block" /> not your team
+      Unify your church <br class="hidden md:block" /> with <span class="text-plain-green">daily check-ins</span>
     </h1>
 
     <!-- Subheadline -->
     <p class="text-lg md:text-xl text-gray-500 mb-10 max-w-2xl mx-auto leading-relaxed">
-      Plain is the fastest support platform ever built, backed by a world-class API. Start fast. Scale fearlessly.
+      Surface guest connections and performance insights automatically. Built for churches without executive pastors who need unified visibility.
     </p>
 
     <!-- Buttons -->

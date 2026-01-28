@@ -1,73 +1,115 @@
-<section class="py-24 bg-white">
+<section class="py-24 md:py-32 bg-gray-50">
   <div class="container-custom">
     <div class="text-center mb-16">
-        <p class="text-[10px] font-bold tracking-[0.2em] text-gray-400 uppercase mb-4">Fast growing companies love Plain</p>
-        <h2 class="text-4xl md:text-5xl font-bold text-gray-900 tracking-tight">Take their word for it</h2>
+      <p class="text-sm font-semibold tracking-wide text-emerald-600 uppercase mb-4">Client success stories</p>
+      <h2 class="text-4xl md:text-5xl font-bold text-gray-900 tracking-tight">
+        Real results from landscape companies like yours
+      </h2>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-        <!-- Large Testimonial (Granola) -->
-        <div class="md:col-span-2 bg-[#3D0F15] rounded-2xl overflow-hidden text-white relative flex flex-col md:flex-row">
-            <div class="p-10 md:p-16 flex-1 flex flex-col justify-center relative z-10">
-                <div class="text-2xl font-serif font-bold mb-12">granola|</div>
-                <div class="text-4xl text-white/20 absolute top-10 left-10 font-serif">“</div>
-                <p class="text-xl md:text-2xl font-medium leading-relaxed mb-10 relative z-10">
-                    We chose Plain because it was the right fit for our fast-moving team to get going quickly. It's helped us stay organized & responsive as we 100x-ed our users, and we're confident it will keep supporting us as we continue to grow.
-                </p>
-                <div class="flex items-center gap-4">
-                    <div class="w-12 h-12 rounded bg-gray-700 overflow-hidden">
-                        <img src="https://ui-avatars.com/api/?name=Jo+Barrow&background=random" alt="Jo Barrow" />
-                    </div>
-                    <div>
-                        <p class="font-bold text-sm">Jo Barrow</p>
-                        <p class="text-[10px] font-bold tracking-widest text-white/60 uppercase">Chief of Staff</p>
-                    </div>
-                </div>
-            </div>
-            <div class="flex-1 bg-[#4D131A] relative min-h-[300px] md:min-h-0">
-                <!-- Placeholder for image collage -->
-                <div class="absolute inset-0 opacity-50 bg-[url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80')] bg-cover bg-center mix-blend-overlay"></div>
-                <div class="absolute top-4 right-4 text-[10px] font-bold tracking-widest text-white/40 uppercase flex items-center gap-2">
-                    Case Study <span class="text-white">→</span>
-                </div>
-            </div>
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <!-- Testimonial 1 -->
+      <div class="bg-white rounded-2xl p-8 border border-gray-200">
+        <div class="flex items-center gap-4 mb-6">
+          <div class="w-14 h-14 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-700 font-bold text-xl">
+            MG
+          </div>
+          <div>
+            <p class="font-bold text-gray-900">Michael Green</p>
+            <p class="text-sm text-gray-600">Owner, Green Horizons Landscaping</p>
+          </div>
         </div>
+        <div class="text-emerald-600 text-5xl font-serif mb-4">"</div>
+        <p class="text-gray-700 leading-relaxed mb-6">
+          Andrew helped us go from 2% net profit to 8% in just 18 months. His deep understanding of our software and financials was exactly what we needed. We finally feel confident about our business.
+        </p>
+        <div class="flex items-center gap-6 pt-6 border-t border-gray-100">
+          <div>
+            <p class="text-2xl font-bold text-emerald-600">2% → 8%</p>
+            <p class="text-xs text-gray-600">Profit margin increase</p>
+          </div>
+          <div>
+            <p class="text-2xl font-bold text-emerald-600">$12M</p>
+            <p class="text-xs text-gray-600">Annual revenue</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="bg-white rounded-2xl p-8 border border-gray-200">
+        <div class="flex items-center gap-4 mb-6">
+          <div class="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-bold text-xl">
+            SR
+          </div>
+          <div>
+            <p class="font-bold text-gray-900">Sarah Rodriguez</p>
+            <p class="text-sm text-gray-600">CEO, Premier Landscape Solutions</p>
+          </div>
+        </div>
+        <div class="text-emerald-600 text-5xl font-serif mb-4">"</div>
+        <p class="text-gray-700 leading-relaxed mb-6">
+          We were drowning in data but had no insights. Andrew showed us how to use our software properly and identify which services were actually profitable. Game changer for our business strategy.
+        </p>
+        <div class="flex items-center gap-6 pt-6 border-t border-gray-100">
+          <div>
+            <p class="text-2xl font-bold text-emerald-600">3x</p>
+            <p class="text-xs text-gray-600">Profit improvement</p>
+          </div>
+          <div>
+            <p class="text-2xl font-bold text-emerald-600">$8M</p>
+            <p class="text-xs text-gray-600">Annual revenue</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="bg-white rounded-2xl p-8 border border-gray-200">
+        <div class="flex items-center gap-4 mb-6">
+          <div class="w-14 h-14 rounded-full bg-purple-100 flex items-center justify-center text-purple-700 font-bold text-xl">
+            DT
+          </div>
+          <div>
+            <p class="font-bold text-gray-900">David Thompson</p>
+            <p class="text-sm text-gray-600">President, Thompson Landscape Group</p>
+          </div>
+        </div>
+        <div class="text-emerald-600 text-5xl font-serif mb-4">"</div>
+        <p class="text-gray-700 leading-relaxed mb-6">
+          Having a CPA who actually understands landscape software is incredibly rare. Andrew's expertise in both areas helped us optimize our pricing and improve our margins significantly.
+        </p>
+        <div class="flex items-center gap-6 pt-6 border-t border-gray-100">
+          <div>
+            <p class="text-2xl font-bold text-emerald-600">1% → 6%</p>
+            <p class="text-xs text-gray-600">Profit margin increase</p>
+          </div>
+          <div>
+            <p class="text-2xl font-bold text-emerald-600">$25M</p>
+            <p class="text-xs text-gray-600">Annual revenue</p>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <!-- Testimonial 2 (Stytch) -->
-        <div class="bg-[#F7F5F2] rounded-2xl p-10">
-            <div class="text-green-500 text-4xl font-serif mb-6">“</div>
-            <p class="text-lg text-gray-900 font-medium leading-relaxed mb-8">
-                With Plain powering our support, we don't have to think about scaling challenges. Everything just works.
-            </p>
-            <div class="flex items-center gap-4 mt-auto">
-                <div class="w-10 h-10 rounded bg-gray-300 overflow-hidden">
-                     <img src="https://ui-avatars.com/api/?name=Christopher+ONeill&background=random" alt="Christopher" />
-                </div>
-                <div>
-                    <p class="font-bold text-sm text-gray-900">Christopher O'Neill</p>
-                    <p class="text-[10px] font-bold tracking-widest text-gray-400 uppercase">Head of Developer Success, Stytch</p>
-                </div>
-            </div>
+    <!-- Stats Bar -->
+    <div class="mt-16 bg-emerald-600 rounded-2xl p-12 text-white">
+      <div class="grid md:grid-cols-4 gap-8 text-center">
+        <div>
+          <p class="text-4xl md:text-5xl font-bold mb-2">15+</p>
+          <p class="text-emerald-100">Years experience</p>
         </div>
-
-        <!-- Testimonial 3 (Raycast) -->
-        <div class="bg-[#F7F5F2] rounded-2xl p-10">
-            <div class="text-green-500 text-4xl font-serif mb-6">“</div>
-            <p class="text-lg text-gray-900 font-medium leading-relaxed mb-8">
-                We see Plain as a tool very similar to Raycast. Focused on a great user experience, intelligent workflows, and truly empowering the teams that use it.
-            </p>
-            <div class="flex items-center gap-4 mt-auto">
-                <div class="w-10 h-10 rounded bg-gray-300 overflow-hidden">
-                    <img src="https://ui-avatars.com/api/?name=Daniel+Sequeira&background=random" alt="Daniel" />
-                </div>
-                <div>
-                    <p class="font-bold text-sm text-gray-900">Daniel Sequeira</p>
-                    <p class="text-[10px] font-bold tracking-widest text-gray-400 uppercase">Head of Business Ops, Raycast</p>
-                </div>
-            </div>
+        <div>
+          <p class="text-4xl md:text-5xl font-bold mb-2">$500M+</p>
+          <p class="text-emerald-100">Client revenue managed</p>
         </div>
+        <div>
+          <p class="text-4xl md:text-5xl font-bold mb-2">5-10%</p>
+          <p class="text-emerald-100">Target profit margins</p>
+        </div>
+        <div>
+          <p class="text-4xl md:text-5xl font-bold mb-2">100%</p>
+          <p class="text-emerald-100">Client satisfaction</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>

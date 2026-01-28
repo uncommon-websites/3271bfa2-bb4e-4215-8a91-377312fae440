@@ -1,80 +1,97 @@
-<footer class="bg-white pt-24 pb-12 overflow-hidden relative">
-  <!-- Background Graphic (Green Lines) -->
-  <div class="absolute bottom-0 right-0 pointer-events-none opacity-20">
-      <svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0 400C200 400 300 300 400 200C500 100 600 0 600 0" stroke="#25E68E" stroke-width="2"/>
-          <path d="M100 400C300 400 400 300 500 200C600 100 700 0 700 0" stroke="#25E68E" stroke-width="2"/>
-          <path d="M-100 400C100 400 200 300 300 200C400 100 500 0 500 0" stroke="#25E68E" stroke-width="2"/>
-      </svg>
-  </div>
-
-  <div class="container-custom relative z-10">
-    <div class="grid grid-cols-2 md:grid-cols-5 gap-8 mb-16">
-        <!-- Logo Column -->
-        <div class="col-span-2 md:col-span-1">
-            <a href="/" class="flex items-center gap-2 text-xl font-bold tracking-tight text-gray-900 mb-6">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-plain-green">
-                  <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" fill="currentColor"/>
-                  <path d="M15 9L10 16L8 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                Plain
-            </a>
+<footer class="bg-gray-900 pt-20 pb-12 text-white">
+  <div class="container-custom">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+      <!-- Company Info -->
+      <div class="md:col-span-2">
+        <a href="/" class="flex items-center gap-3 text-xl font-bold mb-6">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-emerald-500">
+            <path d="M16 4L4 10V14C4 21.18 8.84 27.62 16 29C23.16 27.62 28 21.18 28 14V10L16 4Z" fill="currentColor" opacity="0.2"/>
+            <path d="M16 4L4 10V14C4 21.18 8.84 27.62 16 29C23.16 27.62 28 21.18 28 14V10L16 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12 16L15 19L20 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span>Andrew Trower <span class="text-emerald-500">&</span> Associates</span>
+        </a>
+        <p class="text-gray-400 leading-relaxed mb-6 max-w-md">
+          Expert landscape business consulting combining CPA expertise, MBA strategy, and software mastery to help your company achieve sustainable profitability.
+        </p>
+        <div class="flex items-center gap-4">
+          <a href="mailto:andrew@trowerassociates.com" class="text-gray-400 hover:text-emerald-500 transition-colors">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-emerald-500 transition-colors">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+              <rect x="2" y="9" width="4" height="12"/>
+              <circle cx="4" cy="4" r="2"/>
+            </svg>
+          </a>
         </div>
+      </div>
 
-        <!-- Links Columns -->
-        <div>
-            <h4 class="font-bold text-gray-900 mb-4">Product</h4>
-            <ul class="space-y-3 text-sm text-gray-500">
-                <li><a href="#" class="hover:text-green-500">Pricing</a></li>
-                <li><a href="#" class="hover:text-green-500">Customers</a></li>
-                <li><a href="#" class="hover:text-green-500">Security</a></li>
-                <li><a href="#" class="hover:text-green-500">Integrations</a></li>
-                <li><a href="#" class="hover:text-green-500">Startup Program</a></li>
-                <li><a href="#" class="hover:text-green-500">Careers</a></li>
-                <li><a href="#" class="hover:text-green-500">Blog</a></li>
-            </ul>
-        </div>
+      <!-- Services -->
+      <div>
+        <h4 class="font-bold text-white mb-4">Services</h4>
+        <ul class="space-y-3 text-sm text-gray-400">
+          <li><a href="#financial-analysis" class="hover:text-emerald-500 transition-colors">Financial Analysis</a></li>
+          <li><a href="#software-optimization" class="hover:text-emerald-500 transition-colors">Software Optimization</a></li>
+          <li><a href="#strategic-planning" class="hover:text-emerald-500 transition-colors">Strategic Planning</a></li>
+          <li><a href="#operations" class="hover:text-emerald-500 transition-colors">Operational Efficiency</a></li>
+          <li><a href="#team-development" class="hover:text-emerald-500 transition-colors">Team Development</a></li>
+          <li><a href="#ongoing-support" class="hover:text-emerald-500 transition-colors">Ongoing Support</a></li>
+        </ul>
+      </div>
 
-        <div>
-            <h4 class="font-bold text-gray-900 mb-4">Channels</h4>
-            <ul class="space-y-3 text-sm text-gray-500">
-                <li><a href="#" class="hover:text-green-500">Slack</a></li>
-                <li><a href="#" class="hover:text-green-500">Microsoft Teams</a></li>
-                <li><a href="#" class="hover:text-green-500">Discourse</a></li>
-                <li><a href="#" class="hover:text-green-500">Email</a></li>
-                <li><a href="#" class="hover:text-green-500">Help Center</a></li>
-                <li><a href="#" class="hover:text-green-500">In-app forms</a></li>
-                <li><a href="#" class="hover:text-green-500">Headless portal</a></li>
-                <li><a href="#" class="hover:text-green-500">Live Chat</a></li>
-            </ul>
-        </div>
-
-        <div>
-            <h4 class="font-bold text-gray-900 mb-4">Resources</h4>
-            <ul class="space-y-3 text-sm text-gray-500">
-                <li><a href="#" class="hover:text-green-500">Help Center</a></li>
-                <li><a href="#" class="hover:text-green-500">API Reference</a></li>
-                <li><a href="#" class="hover:text-green-500">Press Kit</a></li>
-                <li><a href="#" class="hover:text-green-500">Trust Center</a></li>
-                <li><a href="#" class="hover:text-green-500">Privacy</a></li>
-                <li><a href="#" class="hover:text-green-500">Terms</a></li>
-                <li><a href="#" class="hover:text-green-500">Data processing</a></li>
-                <li><a href="#" class="hover:text-green-500">Vulnerability</a></li>
-            </ul>
-        </div>
-
-        <div>
-            <h4 class="font-bold text-gray-900 mb-4">Support</h4>
-            <ul class="space-y-3 text-sm text-gray-500">
-                <li><a href="#" class="hover:text-green-500">Status</a></li>
-                <li><a href="#" class="hover:text-green-500">@plainsupport</a></li>
-            </ul>
-        </div>
+      <!-- Company -->
+      <div>
+        <h4 class="font-bold text-white mb-4">Company</h4>
+        <ul class="space-y-3 text-sm text-gray-400">
+          <li><a href="#about" class="hover:text-emerald-500 transition-colors">About Andrew</a></li>
+          <li><a href="#credentials" class="hover:text-emerald-500 transition-colors">Credentials</a></li>
+          <li><a href="#testimonials" class="hover:text-emerald-500 transition-colors">Client Stories</a></li>
+          <li><a href="#contact" class="hover:text-emerald-500 transition-colors">Contact</a></li>
+          <li><a href="#faq" class="hover:text-emerald-500 transition-colors">FAQ</a></li>
+          <li><a href="#blog" class="hover:text-emerald-500 transition-colors">Resources</a></li>
+        </ul>
+      </div>
     </div>
 
-    <div class="border-t border-gray-100 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-        <p class="text-xs text-gray-400">© 2025 Plain</p>
-        <p class="text-xs text-gray-400">Not Just Tickets Ltd</p>
+    <!-- Credentials Bar -->
+    <div class="border-t border-gray-800 pt-8 mb-8">
+      <div class="flex flex-wrap items-center justify-center gap-8 text-sm text-gray-500">
+        <div class="flex items-center gap-2">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-emerald-500">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+            <polyline points="22 4 12 14.01 9 11.01"/>
+          </svg>
+          <span>Certified Public Accountant</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-emerald-500">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+            <polyline points="22 4 12 14.01 9 11.01"/>
+          </svg>
+          <span>Master of Business Administration</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-emerald-500">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+            <polyline points="22 4 12 14.01 9 11.01"/>
+          </svg>
+          <span>Certified Software Specialist</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
+      <p>&copy; 2025 Andrew Trower & Associates. All rights reserved.</p>
+      <div class="flex items-center gap-6">
+        <a href="#privacy" class="hover:text-emerald-500 transition-colors">Privacy Policy</a>
+        <a href="#terms" class="hover:text-emerald-500 transition-colors">Terms of Service</a>
+      </div>
     </div>
   </div>
 </footer>
